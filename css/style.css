@@ -297,7 +297,15 @@ body::before {
 .price .en-text .old {
   color: #e50707;
   text-decoration: line-through #ef0d0d solid ;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  border: solid #ef0d0d 1px;
+  border-radius: 50%;
+  padding: 10px;
+  width: fit-content;
+  transform: rotate(-3deg);
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
 }
 
 
